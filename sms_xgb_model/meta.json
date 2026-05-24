@@ -1,0 +1,22 @@
+{
+  "model_type": "distilbert_xgb",
+  "max_length": 128,
+  "bert_model_name": "distilbert-base-uncased",
+  "feature_order": [
+    "tfidf",
+    "bert_meanpool",
+    "phishing_indicators",
+    "structural"
+  ],
+  "indicator_categories": [
+    "urgency",
+    "credentials",
+    "prizes",
+    "action",
+    "financial",
+    "threat",
+    "impersonation",
+    "spam_words"
+  ],
+  "n_indicator_features": 20
+}

@@ -1,0 +1,13 @@
+{
+  "model_type": "distilbert_xgb",
+  "max_length": 128,
+  "bert_model_name": "distilbert-base-uncased",
+  "feature_order": [
+    "tfidf",
+    "bert_meanpool",
+    "keyword",
+    "structural"
+  ],
+  "keyword_count": 57,
+  "structural_count": 10
+}
